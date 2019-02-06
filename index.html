@@ -1,16 +1,16 @@
 <html>
-    <style>
-        
-        ul {
+
+<style>
+  ul {
   list-style-type: none;
-  margin: 30;
-  padding: 0;
+  margin: 200;
+  padding: 50;
   overflow: hidden;
-  background-color: #333333;
+  background-color: #0033cc;
 }
 
 li {
-  float: left;
+  float: center;
 }
 
 li a {
@@ -19,106 +19,177 @@ li a {
   text-align: center;
   padding: 20;
   text-decoration: none;
+    font-size: 60;
+    font-family: monospace;
 }
 
 li a:hover {
-  background-color: #111111;
+  background-color: #1a53ff;
 }
-        
-        #home {
-            text-align: center;
-            font-size: 20;
-            
-        }
-     #gg {
-            text-align: center;
-            font-size: 20;
-            href="https://colerobertsmithparsons.github.io/y10web/purpledot/Purpledot.html"
-            
-        }
-        
-         #contact {
-            text-align: center;
-            font-size: 20;
-            
-        }
-        
-         #about {
-            text-align: center;
-            font-size: 20;
-            
-        }
-        #game {
-            text-align: center;
-            font-family: serif;
-            font-size: 60;
-            
-        }
-        
-        #title {
-        
     
-        color: black;
-        font-size: 50;
+    #title {
+        color: #0033cc;
+        font-size: 60;
         font-family: sans-serif;
         text-align: center;
+    }
+    
+   
+    
+    #instructions {
+        color:#0033cc;
+        font size: 60;
+        font-family: sans-serif;
+        text-align: center;
+    }
+    
+   
+    #text {
+        color: black;
+        font-size: 20;
+        font-family: sans-serif;
+        position: absolute;
+        left:500;   
+    }
+    
+   
+    
+    #howtoplay {
+         color:#0033cc;
+        font size: 60;
+        font-family: sans-serif;
+       position: absolute;
+        top: 1100;
+        left: 660;
         
-            
-        }
         
-        h3 {
-            position: absolute;
-            top: 50;
-            left: 550;
-            font-family: cursive;
-        }
+    }
+    
+    #Timermode {
+        color:#0033cc;
+        font size: 60;
+        font-family: sans-serif;
+       position: absolute;
+        top: 1400;
+        left: 660;
+    }
+    
+    #Freeforall {
+        color:#0033cc;
+        font size: 60;
+        font-family: sans-serif;
+       position: absolute;
+        top: 1250;
+        left: 670;
+    }
+    #howtoplaygame {
+         color:#0033cc;
+        font size: 30;
+        font-family: sans-serif;
+       position: absolute;
+        top: 1150;
+        left: 130;
+        
+    }
+    
+    #ffam {
+         color:#0033cc;
+        font size: 30;
+        font-family: sans-serif;
+       position: absolute;
+        top: 1300;
+        left: 340;
+    }
+   
+    #tm {
+         color:#0033cc;
+        font size: 30;
+        font-family: sans-serif;
+       position: absolute;
+        top: 1450;
+        left: 340;
+    }
     </style>
-    <title>NHL's Best: Leafs</title>
-    <body style="background-color:lightblue;">
-    <h1 id="title"> Leafs Talk </h1>
-    <h3>With Cole Parsons</h3>
-      <ul>
-  <li><a href="#home">Home</a></li>
-  <li><a href="#gg">Game</a></li>
-  <li><a href="#contact">Contact</a></li>
-  <li><a href="#about">About</a></li>
-</ul>
-  
-        
-        <br>
-        
-    <h2>Auston Matthews</h2>
-     <img src=download-2.jpg width="500" height="350">
-    <p>Matthews is hands down one of the brightest talents in the NHL, recently he has struggled, only scoring 1 goal in his last 9 games, this is a rare occurance for the Leafs Allstar, he will hope to gain his stride come after the all star break, and return to the dominant centre that we all know and love.
-</p>
-    <hr>
-    <br>
-    <br>
-    <h2>John Tavares </h2>
-    <img src=Tavares.jpg width="500" height="350">
-    <p>Tavares has been everything that leafs have hoped for since signing him in the offseason, the dominant centre is on pace for 100+ points, and most impressively 60+ goals, truly living up to his higher than high standards set by the leafs faithful.
+
+<title>Munch Down
+</title>
+<body style= background-color:#ff00ff; >
+<h1 id="title"> Munch Down </h1>
+     <ul>
+  <li><a id="home" href="https://y10webagilescrum.github.io/Y10Game/TimedMode.html"> Timed Mode</a></li>
+  <li><a id="home" href="https://y10webagilescrum.github.io/Y10Game/UntimedMode.html">Free 4 All Mode</a></li>
+    </ul>
+
+<h2 id="instructions">Controls</h2>
+    
+
+    <table id="playertwotable" border="1">
+  <th>Key</th><th>Direction</th>
+  <tr>
+     <td>Up Arrow</td><td>Up</td>
+  </tr>
+  <tr>
+     <td>Left Arrow</td><td>Left</td>
+  </tr>
+  <tr>
+     <td>Right Arrow</td><td>Right</td>
+  </tr>
+        <tr>
+     <td>Down Arrow</td><td>Down</td>
+  </tr>
+</table>
+   
+    <h2 id="howtoplay">How to Play
+    </h2>
+    
+    <p id="howtoplaygame">The objective of Munch Down is to collect as many apples as possible, increasing your score and worms length. If you run into your body, you will explode and respawn</p>
+    
+    <h2 id=Timermode>Timed Mode</h2>
+    <p id=tm>In this game mode you have a 60 second timer, the goal is to get the highest score possible in the limited time
     </p>
-    <hr>
-   <br>
-    <br>
-    <h2>Leafs Top Scorers 2018-2019</h2>
-    <ol>
-        <li>John Tavares- 29</li>
-        <li>Auston Matthews- 20</li>
-        <li>Mitch Marner (For some reason not an allstar)- 17</li>
-        <li>Kasperi Kapenan- 14</li>
-        <li>Morgan Rielly (For some reason not an allstar either)- 13</li>
-    </ol>
     
-    <p>Heres a link to the full list.</p>
-    <a href>https://www.nhl.com/mapleleafs/stats/regular-season/skaters/g</a>
+    <h2 id=Freeforall>Free 4 All</h2>
+    <p id=ffam>In this game mode, there are no restrictions, get the highest score, but make sure not to run into yourself!</p>
     
-    <hr>
-    <p>And if you want a fun button to push here you go...</p>
-    <button>Go Leafs</button>
     <br>
     <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <p></p>
     
-    <a id=game href= "https://colerobertsmithparsons.github.io/y10web/purpledot/Purpledot.html">Dot Game</a>
-    </body>
+    <style>
+       
+    
+     #playertwotable {
+         font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 20%;
+  margin: auto;
+  color: white;
+    position: absolute;
+         top:830;
+         left: 590;
+
+    }
+        
+        #playertwotable td, #playertwotable th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+
+
+#playertwotable th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #0033cc;
+  color: white;
+}
+    </style>
+</body>
+
 </html>
